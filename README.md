@@ -1,6 +1,6 @@
 # Project_Peripheral
 
-This project implements a real-time temperature and humidity monitoring system using an ESP32, a DHT22 sensor, and a 20x4 I2C LCD.
+This project implements a real-time temperature and humidity monitoring system using an ESP32, a DHT22 sensor, and a 16x2 I2C LCD.
 The system uses FreeRTOS tasks and binary semaphores to detect abnormal temperature conditions and trigger dedicated warning/critical handler tasks.
 
 This project demonstrates:
@@ -15,6 +15,6 @@ Handling three system states:
 
 Normal
 
-Warning (temperature 30–32°C)
+Warning (temperature 31–32°C)
 
 Critical (temperature > 32°C)
